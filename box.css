@@ -11,11 +11,12 @@
     animation-direction: alternate;
     animation-fill-mode: both;  */
 
-    animation: first-animation 1s ease 0s infinite alternate;
+    animation: first-animation 2s ease-out 0s 4 alternate;
 }
 @keyframes first-animation {
-    from{width: 100px; height: 100px; background: blue;}
-    to{width: 10px;height: 10px ; background: red;}
+    0%{width: 10px;height: 10px;background: blue;}
+    50%{width: 20px;height: 50px;background:red}
+    100%{width: 50px;height: 50px;background: green;}
 }
 
 
