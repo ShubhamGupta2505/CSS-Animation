@@ -10,8 +10,10 @@
     animation-name: transform;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    animation-delay: 3s;
 }
 
 @keyframes transform {
-    100%{transform:scale(2);}
-}
+    100%{transform: rotate(180deg);}
+    90%{transform: skew(50deg);}
+} 
