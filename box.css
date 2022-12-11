@@ -12,6 +12,7 @@
     animation-fill-mode: both;  */
 
     animation: first-animation 2s ease-out 0s 4 alternate;
+    animation-fill-mode: both;
 }
 @keyframes first-animation {
     0%{width: 10px;height: 10px;background: blue;}
