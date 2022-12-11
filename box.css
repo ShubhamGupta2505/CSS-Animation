@@ -11,7 +11,7 @@
     animation-direction: alternate;
     animation-fill-mode: both;  */
 
-    animation: first-animation 1s ease  infinite alternate;
+    animation: first-animation 1s ease 0s infinite alternate;
 }
 @keyframes first-animation {
     from{width: 100px; height: 100px; background: blue;}
