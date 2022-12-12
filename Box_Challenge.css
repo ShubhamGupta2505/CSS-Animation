@@ -8,7 +8,7 @@ body {
 	width: 30px;
     animation-name: transforms;
     animation-duration: 2s;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
     animation-iteration-count: infinite;
     animation-fill-mode: normal;
     animation-delay: 1s;
