@@ -6,6 +6,13 @@ body {
 .box {
 	height: 30px;
 	width: 30px;
+    animation-name: transforms;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-fill-mode: normal;
+    animation-delay: 1s;
+    animation-direction: alternate;
 }
 
 .box-red {
@@ -26,4 +33,7 @@ body {
 .box-orange {
 	background: #ffaf24;
     margin: 0;
+}
+@keyframes transforms {
+    to{transform: translate(50vw,50vh) scaleX(10) skewY(60deg) ;}
 }
